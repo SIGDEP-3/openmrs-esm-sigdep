@@ -3,10 +3,10 @@ name: E2E Tests
 on:
   push:
     branches:
-      - main
+      - x # Ignore e2e workflows untill we add some tests
   pull_request:
     branches:
-      - main
+      - x # Ignore e2e workflows untill we add some tests
 
 jobs:
   main:
